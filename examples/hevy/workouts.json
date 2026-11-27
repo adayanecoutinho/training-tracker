@@ -1,0 +1,478 @@
+[
+  {
+    "id": "demo-0004",
+    "title": "Demo B — Upper",
+    "routine_id": null,
+    "description": "Fictional demo workout",
+    "start_time": "2026-04-16T21:00:00+00:00",
+    "end_time": "2026-04-16T22:05:00+00:00",
+    "updated_at": "2026-04-16T22:06:00+00:00",
+    "created_at": "2026-04-16T22:06:00+00:00",
+    "exercises": [
+      {
+        "index": 0,
+        "title": "Puxada Alta na Polia (Máquina)",
+        "notes": null,
+        "exercise_template_id": "DEMO0003",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 37.5,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7.5,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 37.5,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 2,
+            "type": "normal",
+            "weight_kg": 37.5,
+            "reps": 9,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8.5,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "title": "Supino Inclinado (Halter)",
+        "notes": null,
+        "exercise_template_id": "DEMO0004",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 10,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 10,
+            "reps": 9,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8.5,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Elevação Lateral (Halter)",
+        "notes": "Demo note: slow tempo.",
+        "exercise_template_id": "DEMO0005",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 5,
+            "reps": 15,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 5,
+            "reps": 14,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 9,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Remada Sentada com Pegada em V (Cabo)",
+        "notes": null,
+        "exercise_template_id": "DEMO0006",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 32.5,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7.5,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 32.5,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "demo-0003",
+    "title": "Demo A — Lower",
+    "routine_id": null,
+    "description": "Fictional demo workout",
+    "start_time": "2026-04-13T21:00:00+00:00",
+    "end_time": "2026-04-13T22:05:00+00:00",
+    "updated_at": "2026-04-13T22:06:00+00:00",
+    "created_at": "2026-04-13T22:06:00+00:00",
+    "exercises": [
+      {
+        "index": 0,
+        "title": "Leg Press 45º (Máquina)",
+        "notes": null,
+        "exercise_template_id": "DEMO0001",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "warmup",
+            "weight_kg": 40,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": null,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 105,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7,
+            "custom_metric": null
+          },
+          {
+            "index": 2,
+            "type": "normal",
+            "weight_kg": 105,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 3,
+            "type": "normal",
+            "weight_kg": 105,
+            "reps": 9,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8.5,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "title": "Cadeira Flexora (Máquina)",
+        "notes": null,
+        "exercise_template_id": "DEMO0002",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 32.5,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7.5,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 32.5,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 2,
+            "type": "failure",
+            "weight_kg": 32.5,
+            "reps": 11,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 10,
+            "custom_metric": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "demo-0002",
+    "title": "Demo B — Upper",
+    "routine_id": null,
+    "description": "Fictional demo workout",
+    "start_time": "2026-04-09T21:00:00+00:00",
+    "end_time": "2026-04-09T22:05:00+00:00",
+    "updated_at": "2026-04-09T22:06:00+00:00",
+    "created_at": "2026-04-09T22:06:00+00:00",
+    "exercises": [
+      {
+        "index": 0,
+        "title": "Puxada Alta na Polia (Máquina)",
+        "notes": null,
+        "exercise_template_id": "DEMO0003",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 35,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7.5,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 35,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 2,
+            "type": "normal",
+            "weight_kg": 35,
+            "reps": 9,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8.5,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "title": "Supino Inclinado (Halter)",
+        "notes": null,
+        "exercise_template_id": "DEMO0004",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 10,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 10,
+            "reps": 9,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8.5,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Elevação Lateral (Halter)",
+        "notes": "Demo note: slow tempo.",
+        "exercise_template_id": "DEMO0005",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 4,
+            "reps": 15,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 4,
+            "reps": 14,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 9,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Remada Sentada com Pegada em V (Cabo)",
+        "notes": null,
+        "exercise_template_id": "DEMO0006",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 30,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7.5,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 30,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "demo-0001",
+    "title": "Demo A — Lower",
+    "routine_id": null,
+    "description": "Fictional demo workout",
+    "start_time": "2026-04-06T21:00:00+00:00",
+    "end_time": "2026-04-06T22:05:00+00:00",
+    "updated_at": "2026-04-06T22:06:00+00:00",
+    "created_at": "2026-04-06T22:06:00+00:00",
+    "exercises": [
+      {
+        "index": 0,
+        "title": "Leg Press 45º (Máquina)",
+        "notes": null,
+        "exercise_template_id": "DEMO0001",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "warmup",
+            "weight_kg": 40,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": null,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 100,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7,
+            "custom_metric": null
+          },
+          {
+            "index": 2,
+            "type": "normal",
+            "weight_kg": 100,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 3,
+            "type": "normal",
+            "weight_kg": 100,
+            "reps": 9,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8.5,
+            "custom_metric": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "title": "Cadeira Flexora (Máquina)",
+        "notes": null,
+        "exercise_template_id": "DEMO0002",
+        "superset_id": null,
+        "sets": [
+          {
+            "index": 0,
+            "type": "normal",
+            "weight_kg": 30,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 7.5,
+            "custom_metric": null
+          },
+          {
+            "index": 1,
+            "type": "normal",
+            "weight_kg": 30,
+            "reps": 12,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 8,
+            "custom_metric": null
+          },
+          {
+            "index": 2,
+            "type": "failure",
+            "weight_kg": 30,
+            "reps": 11,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "rpe": 10,
+            "custom_metric": null
+          }
+        ]
+      }
+    ]
+  }
+]

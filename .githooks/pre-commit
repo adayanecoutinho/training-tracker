@@ -1,0 +1,28 @@
+#!/bin/sh
+# Ritual de entrega (docs/README.md): mudança de código, banco ou dependência
+# exige docs/como-funciona.md e docs/entregas.md no mesmo commit.
+#
+# Pular uma vez (refatoração sem efeito visível, só testes, etc.):
+#   SKIP_DOCS_CHECK=1 git commit ...
+# Ativar depois de clonar:
+#   git config core.hooksPath .githooks
+
+[ "$SKIP_DOCS_CHECK" = "1" ] && exit 0
+
+staged=$(git diff --cached --name-only --diff-filter=ACMRD)
+
+code=$(printf '%s\n' "$staged" | grep -E '^[^/]+\.py$|^supabase/migrations/|^requirements\.txt$' | grep -vE '^test_[^/]*\.py$')
+[ -z "$code" ] && exit 0
+
+missing=""
+printf '%s\n' "$staged" | grep -qx 'docs/como-funciona.md' || missing="$missing\n  - docs/como-funciona.md (descreva o novo estado)"
+printf '%s\n' "$staged" | grep -qx 'docs/entregas.md' || missing="$missing\n  - docs/entregas.md (registre a entrega)"
+[ -z "$missing" ] && exit 0
+
+printf 'Commit bloqueado pelo ritual de entrega (docs/README.md).\n' >&2
+printf 'Arquivos de código no commit:\n' >&2
+printf '%s\n' "$code" | sed 's/^/  /' >&2
+printf 'Faltam no mesmo commit:%b\n' "$missing" >&2
+printf 'Se o item veio do backlog, tire-o de docs/backlog/ também.\n' >&2
+printf 'Mudança sem efeito na documentação? SKIP_DOCS_CHECK=1 git commit ...\n' >&2
+exit 1

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "DEMO0001",
+    "title": "Leg Press 45º (Máquina)",
+    "type": "weight_reps",
+    "primary_muscle_group": "quadriceps",
+    "secondary_muscle_groups": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "machine",
+    "is_custom": false
+  },
+  {
+    "id": "DEMO0002",
+    "title": "Cadeira Flexora (Máquina)",
+    "type": "weight_reps",
+    "primary_muscle_group": "hamstrings",
+    "secondary_muscle_groups": [],
+    "equipment": "machine",
+    "is_custom": false
+  },
+  {
+    "id": "DEMO0003",
+    "title": "Puxada Alta na Polia (Máquina)",
+    "type": "weight_reps",
+    "primary_muscle_group": "lats",
+    "secondary_muscle_groups": [
+      "biceps"
+    ],
+    "equipment": "machine",
+    "is_custom": false
+  },
+  {
+    "id": "DEMO0004",
+    "title": "Supino Inclinado (Halter)",
+    "type": "weight_reps",
+    "primary_muscle_group": "chest",
+    "secondary_muscle_groups": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "dumbbell",
+    "is_custom": false
+  },
+  {
+    "id": "DEMO0005",
+    "title": "Elevação Lateral (Halter)",
+    "type": "weight_reps",
+    "primary_muscle_group": "shoulders",
+    "secondary_muscle_groups": [],
+    "equipment": "dumbbell",
+    "is_custom": false
+  },
+  {
+    "id": "DEMO0006",
+    "title": "Remada Sentada com Pegada em V (Cabo)",
+    "type": "weight_reps",
+    "primary_muscle_group": "upper_back",
+    "secondary_muscle_groups": [
+      "lats",
+      "biceps"
+    ],
+    "equipment": "machine",
+    "is_custom": false
+  }
+]

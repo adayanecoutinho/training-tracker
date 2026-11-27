@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+data/
+reports/
+routines/
+*.db
+__pycache__/
+.venv/
+supabase/.temp/
+supabase/.branches/
+.coach-skill*
