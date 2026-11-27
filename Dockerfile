@@ -1,4 +1,4 @@
-# Imagem do treino-evolucao: sem porta, os scripts rodam como tarefas agendadas
+# Imagem do training-tracker: sem porta, os scripts rodam como tarefas agendadas
 # (docker exec) e o processo principal só mantém o container vivo.
 FROM python:3.14-slim
 

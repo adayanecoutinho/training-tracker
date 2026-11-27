@@ -1,4 +1,4 @@
-# treino-evolucao
+# training-tracker
 
 A small, honest training-data pipeline: strength workouts from **Hevy**, cardio from **Strava** and older hand-written logs from **Obsidian** are merged into **Postgres**, summarized by SQL views into a weekly report, and read by an **AI coach** prompt that runs with strict guardrails.
 

@@ -1,4 +1,4 @@
-# AGENTS.md — treino-evolucao
+# AGENTS.md — training-tracker
 
 ## Contexto
 
